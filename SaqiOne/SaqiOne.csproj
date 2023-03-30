@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DFBA72F4-87B8-41EC-91BD-A1E173D0200E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>UniversityStudentDiaryManagementSystem</RootNamespace>
+    <AssemblyName>UniversityStudentDiaryManagementSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BL\Achivement.cs" />
+    <Compile Include="BL\Activities.cs" />
+    <Compile Include="BL\Book.cs" />
+    <Compile Include="BL\BookPublisher.cs" />
+    <Compile Include="BL\Fee.cs" />
+    <Compile Include="BL\Fund.cs" />
+    <Compile Include="BL\HelpingMaterial.cs" />
+    <Compile Include="BL\HostelExpenditure.cs" />
+    <Compile Include="BL\Meal.cs" />
+    <Compile Include="BL\Notification.cs" />
+    <Compile Include="BL\Phone.cs" />
+    <Compile Include="BL\Result.cs" />
+    <Compile Include="BL\Secret.cs" />
+    <Compile Include="BL\Transport.cs" />
+    <Compile Include="BL\Wallet.cs" />
+    <Compile Include="DL\AchivementDL.cs" />
+    <Compile Include="DL\ActivitiesDL.cs" />
+    <Compile Include="DL\BookDL.cs" />
+    <Compile Include="DL\FeeDL.cs" />
+    <Compile Include="DL\FundDL.cs" />
+    <Compile Include="DL\HelpingMaterialDL.cs" />
+    <Compile Include="DL\HostelExpenditureDL.cs" />
+    <Compile Include="DL\MealDL.cs" />
+    <Compile Include="DL\NotificationDL.cs" />
+    <Compile Include="DL\PhoneDL.cs" />
+    <Compile Include="DL\ResultDL.cs" />
+    <Compile Include="DL\SecretDL.cs" />
+    <Compile Include="DL\TransportDL.cs" />
+    <Compile Include="DL\WalletDL.cs" />
+    <Compile Include="Forms\Parent\frmReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Parent\frmReport.Designer.cs">
+      <DependentUpon>frmReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Paths\PathFile.cs" />
+    <Compile Include="Forms\Student\frmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Student\frmAbout.Designer.cs">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Student\frmFee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Student\frmFee.Designer.cs">
+      <DependentUpon>frmFee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BL\Credential.cs" />
+    <Compile Include="DL\CredentialDL.cs" />
+    <Compile Include="Forms\Student\frmAchivements.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Student\frmAchivements.Designer.cs">
+      <DependentUpon>frmAchivements.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Student\frmAcivities.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Student\frmAcivities.Designer.cs">
+      <DependentUpon>frmAcivities.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Student\frmBooks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Student\frmBooks.Designer.cs">
+      <DependentUpon>frmBooks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Student\frmCreateAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Student\frmCreateAccount.Designer.cs">
+      <DependentUpon>frmCreateAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Student\frmFunds.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Student\frmFunds.Designer.cs">
+      <DependentUpon>frmFunds.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Student\frmHelpingMaterial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Student\frmHelpingMaterial.Designer.cs">
+      <DependentUpon>frmHelpingMaterial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Student\frmHostelExpenditure.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Student\frmHostelExpenditure.Designer.cs">
+      <DependentUpon>frmHostelExpenditure.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Student\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Student\frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Student\frmMeal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Student\frmMeal.Designer.cs">
+      <DependentUpon>frmMeal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Student\frmMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Student\frmMessage.Designer.cs">
+      <DependentUpon>frmMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Student\frmPhone.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Student\frmPhone.Designer.cs">
+      <DependentUpon>frmPhone.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Student\frmSecret.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Student\frmSecret.Designer.cs">
+      <DependentUpon>frmSecret.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Student\frmSignIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Student\frmSignIn.Designer.cs">
+      <DependentUpon>frmSignIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Student\frmTransport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Student\frmTransport.Designer.cs">
+      <DependentUpon>frmTransport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Student\frmUpdatePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Student\frmUpdatePassword.Designer.cs">
+      <DependentUpon>frmUpdatePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Student\frmWallet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Student\frmWallet.Designer.cs">
+      <DependentUpon>frmWallet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Student\frmUserFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Student\frmUserFile.Designer.cs">
+      <DependentUpon>frmUserFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Parent\frmMainParent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Parent\frmMainParent.Designer.cs">
+      <DependentUpon>frmMainParent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Student\frmResult.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Student\frmResult.Designer.cs">
+      <DependentUpon>frmResult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Parent\frmWalletParent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Parent\frmWalletParent.Designer.cs">
+      <DependentUpon>frmWalletParent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Parent\frmFeeParent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Parent\frmFeeParent.Designer.cs">
+      <DependentUpon>frmFeeParent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Student\frmNotification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Student\frmNotification.Designer.cs">
+      <DependentUpon>frmNotification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\Parent\frmFeeParent.resx">
+      <DependentUpon>frmFeeParent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Parent\frmMainParent.resx">
+      <DependentUpon>frmMainParent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Parent\frmWalletParent.resx">
+      <DependentUpon>frmWalletParent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Student\frmAbout.resx">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Student\frmFee.resx">
+      <DependentUpon>frmFee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Student\frmAchivements.resx">
+      <DependentUpon>frmAchivements.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Student\frmAcivities.resx">
+      <DependentUpon>frmAcivities.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Student\frmBooks.resx">
+      <DependentUpon>frmBooks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Student\frmCreateAccount.resx">
+      <DependentUpon>frmCreateAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Student\frmFunds.resx">
+      <DependentUpon>frmFunds.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Student\frmHelpingMaterial.resx">
+      <DependentUpon>frmHelpingMaterial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Student\frmHostelExpenditure.resx">
+      <DependentUpon>frmHostelExpenditure.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Student\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Student\frmMeal.resx">
+      <DependentUpon>frmMeal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Student\frmMessage.resx">
+      <DependentUpon>frmMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Student\frmPhone.resx">
+      <DependentUpon>frmPhone.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Student\frmSecret.resx">
+      <DependentUpon>frmSecret.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Student\frmSignIn.resx">
+      <DependentUpon>frmSignIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Student\frmTransport.resx">
+      <DependentUpon>frmTransport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Student\frmUpdatePassword.resx">
+      <DependentUpon>frmUpdatePassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Student\frmUserFile.resx">
+      <DependentUpon>frmUserFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Student\frmWallet.resx">
+      <DependentUpon>frmWallet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Student\frmResult.resx">
+      <DependentUpon>frmResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Student\frmNotification.resx">
+      <DependentUpon>frmNotification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Parent\frmReport.resx">
+      <DependentUpon>frmReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="CD\Secret.cd" />
+    <None Include="CD\Transport.cd" />
+    <None Include="CD\Notification.cd" />
+    <None Include="CD\Phone.cd" />
+    <None Include="CD\Result.cd" />
+    <None Include="CD\Credential.cd" />
+    <None Include="CD\Fee.cd" />
+    <None Include="CD\Fund.cd" />
+    <None Include="CD\HelpingMaterial.cd" />
+    <None Include="CD\HostelExpenditure.cd" />
+    <None Include="CD\Meal.cd" />
+    <None Include="CD\Achivement.cd" />
+    <None Include="CD\Activities.cd" />
+    <None Include="CD\Wallet.cd" />
+    <None Include="CD\Book.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="UserProviedImage\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\account.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
