@@ -86,11 +86,11 @@
             this.label5.AutoSize = true;
             this.tableLayoutPanel1.SetColumnSpan(this.label5, 2);
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(9, 9);
+            this.label5.Location = new System.Drawing.Point(201, 9);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(497, 29);
+            this.label5.Size = new System.Drawing.Size(114, 29);
             this.label5.TabIndex = 6;
-            this.label5.Text = "University Student Diary Management System";
+            this.label5.Text = "Saqi One";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // tableLayoutPanel1

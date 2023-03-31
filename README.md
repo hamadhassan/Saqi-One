@@ -3,6 +3,50 @@
 
 Saqi One will help reconnect with parents, manage day-to-day routine, and digitally save memory.
 
+## Description 
+
+Saqi One is a comprehensive digital platform designed to enhance the relationships between children and their parents, manage daily routines, and preserve precious memories. This innovative tool provides users with an easy-to-use interface that allows them to stay connected with their parents by facilitating regular communication and tracking important events, appointments, and tasks.
+
+Whether you're looking to improve your relationship with your parents, manage your day-to-day routine more efficiently, or simply preserve your precious memories, Saqi One is the perfect solution. With its user-friendly interface, robust features, and unparalleled convenience, this cutting-edge platform is the ultimate tool for modern families looking to stay connected and stay on top of their busy lives.
+
+## Motivation
+
+In today's fast-paced and digital world, staying connected with our loved ones, managing daily routines, and preserving precious memories can be a challenge. However, the importance of maintaining strong relationships with our parents, staying organized, and preserving our most treasured memories cannot be overstated. That's where Saqi One comes in. With its innovative and powerful features, Saqi One is the perfect tool to help us stay connected with our parents, manage our daily routines more efficiently, and store our most cherished memories in one place. By using Saqi One, we can not only improve our relationships with our parents but also lead more organized and fulfilling lives. So, whether you're a busy professional, a student, or a stay-at-home parent, Saqi One can help you achieve your goals and live your best life. Start using Saqi One today and experience the benefits of a more connected, organized, and fulfilling life.
+
+## Target Audience
+
+Saqi One is an incredibly versatile digital platform that can be used by a wide range of individuals and families. Its comprehensive features are especially beneficial for busy families with parents and children of all ages who want to improve their relationships, stay organized, and preserve their cherished memories.
+
+Saqi One's memory vault is also an ideal solution for parents who want to preserve and organize their family's treasured memories, such as photos, videos, and other sentimental items.
+
+Students and young adults who want to stay connected with their parents while managing their own busy lives will find Saqi One to be a valuable resource. Its user-friendly interface and robust features make it easy for them to coordinate schedules, manage tasks, and share memories with their loved ones.
+
+In summary, Saqi One is an excellent tool for anyone who wants to stay connected with their parents, stay organized, and preserve their most cherished memories. Whether you're a busy parent, a student, or a young adult, Saqi One has something to offer you. Try it out today and experience the benefits of a more connected and fulfilling life.
+
+
+
+## Technology Stack
+
+The system is designed, developed, and tested in a desktop application. The system used the following language, packages, and an Integrated development environment.\
+
+    C# 								  (7.3)
+    IDE                               Microsoft Visual Studio 2022
+    Framework                         .Net framework (4.8)
+    UI (user interface) framework     Windows Forms                                  
+
+Details of technology used in the system. The version number isenclosed in brackets
+
+## System Requirement
+
+Multicore Intel® or AMD processor (2 GHz or faster processor with SSE 4.2 or later) with 64-bit support
+
+Operating system                                                                         Windows 8
+RAM                                                                                                 4 GB
+Monitor resolution                                                                       1280 x 800 display at 100
+Hard disk space                                                                            1 GB of available hard-disk space
+
+To run Saqi One, your computer must meet the minimum technical specifications outlined below. For optimum performance, use recommended system specifications.
+
 # Users of Application
 There are two types of login first parents and second admin student.
 # Screens
