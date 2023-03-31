@@ -1,11 +1,11 @@
 
-# University Student Diary Management System
+# Saqi One
 
-USDMS will help reconnect with parents, manage day-to-day routine, and digitally save memory.
+Saqi One will help reconnect with parents, manage day-to-day routine, and digitally save memory.
 
 # Users of Application
 There are two types of login first parents and second admin student.
-# Wireframe
+# Screens
 ## Student
 ### Sigin In
 ![sigin in](https://user-images.githubusercontent.com/96945594/172011388-24420289-3043-412e-9162-1ab062a8ef79.JPG)
@@ -16,7 +16,7 @@ There are two types of login first parents and second admin student.
 ### Mian
 ![main](https://user-images.githubusercontent.com/96945594/172011738-aa9b7202-eee3-480e-9af1-9e6658f068ca.JPG)
 ### About
-![about](https://user-images.githubusercontent.com/96945594/172011771-7d09d9d8-e47e-47b2-945e-64dba35af76a.JPG)
+![About](https://user-images.githubusercontent.com/96945594/228990000-77b358af-1f4d-411a-a07c-f1043243c14d.png)
 ### Achivements
 ![achivement](https://user-images.githubusercontent.com/96945594/172011782-f11923ce-acdc-49aa-9af6-4db896b80348.JPG)
 ### Activities
